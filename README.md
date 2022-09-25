@@ -6,11 +6,14 @@ Simple nodejs web server
 
 ## Run
 
+```bash
 docker run -d \
 --name=helloworld \
--p 3000:3000 \
+-p 3666:3000 \ # host:container
+-v /docker/appdata/helloworld:/home/app/site \
 --restart unless-stopped \
 saracenrhue/helloworld:latest
+```
 
 ## Building and pushing a multi-arch container
 
