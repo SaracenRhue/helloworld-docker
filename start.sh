@@ -7,3 +7,6 @@ if [ -z "$(ls -A $site)" ]; then
     wget https://raw.githubusercontent.com/SaracenRhue/helloworld-docker/main/site/index.html
     cd
 fi
+
+sleep 5
+npm start

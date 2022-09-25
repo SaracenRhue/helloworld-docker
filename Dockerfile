@@ -12,4 +12,4 @@ EXPOSE 3000
 
 VOLUME /home/app/site
 
-CMD bash ./script.sh && sleep 5 && npm start
+CMD bash ./start.sh
