@@ -11,4 +11,3 @@ fi
 
 chmod 777 $site # set permissions to everyone
 sleep 5
-npm start # start server
