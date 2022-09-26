@@ -12,4 +12,5 @@ EXPOSE 3000
 
 VOLUME /home/app/site
 
-CMD bash ./start.sh && npm start
+CMD apk add bash && \
+    bash ./start.sh && npm start
